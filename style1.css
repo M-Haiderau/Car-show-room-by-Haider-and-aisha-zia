@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+  background-color: #1e3653; 
+  text-align: center;
+  padding: 2px; 
+  border-radius: 3px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.navbar ul{
+  display: inline-flex;
+  list-style: none;
+  color: tomato;
+}
+.navbar ul li{
+  width: 200px;
+  margin: 1px;
+  padding: 10px; 
+  border-radius: 3px; 
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.navbar ul li:hover
+{
+  background-color: #91b2d9;
+  color: antiquewhite;
+  
+}
+
+.navbar .fa{
+  margin-left: 8px;
+}
+.drop-down{
+ display: none; 
+}
+.navbar ul li:hover .drop-down{
+  display: block;
+  position:absolute;
+  background-color: #1e3653;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 3px; 
+  
+    
+}
+.navbar ul li:hover .drop-down ul{
+  display: block;
+  margin-right: 1px;
+
+
+}
+.navbar ul li:hover .drop-down ul li{
+  width: 160px;
+  padding: 10px;
+  border-bottom: 10px;
+  background: #1e3653 ;
+  text-align: center;
+  
+  
+
+}
+.navbar ul li:hover .drop-down ul li a:hover{
+  background-color:#91b2d9 ;
+  
+
+}
+
+  html {
+    box-sizing: border-box;
+  }
+.content {
+  max-width: 1260px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  
+}
+.vl{
+    border-left: 6px solid green;
+    float: left;
+    height: 275px;
+  }
+  .vl-red{
+    border-left: 6px solid red;
+    float: left;
+    height: 275px;
+  }
+.vl-blue{
+    border-left: 6px solid blue;
+    float: left;
+    height: 275px;
+}
+.vl-orange{
+  border-left: 6px solid orange;
+  float: left;
+  height: 275px;
+}
+.vl-pink{
+  border-left: 6px solid pink;
+  float: left;
+  height: 275px;
+}
+.vl-violet{
+  border-left: 6px solid purple;
+  float: left;
+  height: 275px;
+}
+.vl-grey{
+  border-left: 6px solid grey;
+  float: left;
+  height: 275px;
+}
+.vl-brown{
+  border-left: 6px solid brown;
+  float: left;
+  height: 275px;
+}
+.column {
+    float: left;
+    width: 49.5%;
+    padding: 10px;
+    height: 275px;
+    background-color: blanchedalmond;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column1{
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+     
+    background-color:#91b2d9 ;
+    display: flexbox;
+  }  
+.ex1 {
+    width: 250px;
+    margin: auto;
+    background-color: yellow;
+    
+    padding: 5px;
+}
+.ex12 {
+  width: 250px;
+  margin: auto;
+  background-color: yellow;
+  
+  padding: 5px;
+}

@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.content {
+    max-width: 1260px;
+    margin: auto;
+    background: burlywood;
+    padding: 10px;
+    
+  }
+.navbar{
+    background-color: #1e3653; 
+    text-align: center;
+    padding: 2px; 
+    border-radius: 3px;
+}
+.p1{
+    font-size: 24px;
+}
+.h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.content-home{
+    padding-top: 30px;
+    padding-right: 150px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    text-align: left;
+   
+}
+
+.home-text h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    line-height: 75px;
+    margin : 0 0 5px
+  }
+.home-text p{
+    margin: 0 0 30px;
+    font-size: 25px;
+    color: white;
+  }
+
+.home-text{
+      padding: 0 15px;
+      max-width: 1260px;
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      color: aliceblue;
+    }
+.home-text p{
+      margin: 0 0 30px;
+      font-size: 25px;
+    }
+      
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: tomato;
+    
+
+    
+}
+
+.navbar ul li{
+    width: 200px;
+    margin: 1px;
+    padding: 8px; 
+    border-radius: 3px;
+     
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.navbar ul li:hover
+{
+    background-color: #91b2d9;
+    color: antiquewhite;
+    
+    
+}
+
+.navbar .fa{
+    margin-left: 8px;
+}
+.drop-down{
+   display: none; 
+   
+}
+.navbar ul li:hover .drop-down{
+    display: block;
+    position:absolute;
+    background-color: #1e3653;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3px;
+       
+}
+.navbar ul li:hover .drop-down ul{
+    display: block;
+    margin-right: 1px;
+    
+    
+
+}
+.navbar ul li:hover .drop-down ul li{
+    width: 160px;
+    padding: 10px;
+    border-bottom: 10px;
+    background: #1e3653 ;
+    text-align: center;
+    
+
+}
+.navbar ul li:hover .drop-down ul li a:hover{
+    background-color:#91b2d9 ;
+    
+    
+
+}
